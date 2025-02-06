@@ -1,55 +1,56 @@
 const quizData = [
     {
-        question: "Which country has won the most FIFA World Cup titles?",
-        options: ["Brazil", "Germany", "Argentina", "Italy"],
-        answer: "Brazil",
+        question: "What does HTML stand for?",
+        options: ["HyperText Markup Language", "HighText Machine Language", "HyperText Machine Language", "None of the above"],
+        answer: "HyperText Markup Language",
     },
     {
-        question: "Who holds the record for the most Grand Slam titles in men’s tennis?",
-        options: ["Rafael Nadal", "Novak Djokovic", "Roger Federer", "Pete Sampras"],
-        answer: "Novak Djokovic",
+        question: "Which programming language is known as the mother of all languages?",
+        options: ["C", "Assembly", "Fortran", "Java"],
+        answer: "C",
     },
     {
-        question: "In cricket, what is the maximum number of overs allowed per bowler in a standard One Day International (ODI) match?",
-        options: ["10", "15", "20", "25"],
-        answer: "10",
+        question: "Which of the following is used for styling web pages?",
+        options: ["HTML", "JavaScript", "CSS", "PHP"],
+        answer: "CSS",
     },
     {
-        question: "Which country hosted the first-ever Olympic Games in 1896?",
-        options: ["France", "Greece", "USA", "Italy"],
-        answer: "Greece",
+        question: "What is the correct syntax to output 'Hello World' in JavaScript?",
+        options: ["echo('Hello World');", "print('Hello World');", "System.out.println('Hello World');", "console.log('Hello World');"],
+        answer: "console.log('Hello World');",
     },
     {
-        question: "Which basketball player is known as 'His Airness'?",
-        options: ["LeBron James", "Kobe Bryant", "Michael Jordan", "Shaquille O'Neal"],
-        answer: "Michael Jordan",
+        question: "Which of the following is NOT a valid data type in Java?",
+        options: ["int", "boolean", "double", "integer"],
+        answer: "integer",
     },
     {
-        question: "What is the capital of Australia?",
-        options: ["Sydney", "Melbourne", "Canberra", "Brisbane"],
-        answer: "Canberra",
+        question: "Which symbol is used for comments in Python?",
+        options: ["//", "/* */", "#", "<!-- -->"],
+        answer: "#",
     },
     {
-        question: "Which planet is known as the Red Planet?",
-        options: ["Earth", "Mars", "Venus", "Jupiter"],
-        answer: "Mars",
+        question: "What does SQL stand for?",
+        options: ["Structured Query Language", "Simple Query Language", "Structured Question Language", "Simple Query Logic"],
+        answer: "Structured Query Language",
     },
     {
-        question: "Who developed the theory of relativity?",
-        options: ["Isaac Newton", "Nikola Tesla", "Albert Einstein", "Galileo Galilei"],
-        answer: "Albert Einstein",
+        question: "Which company developed the Python programming language?",
+        options: ["Google", "Microsoft", "Apple", "Python Software Foundation"],
+        answer: "Python Software Foundation",
     },
     {
-        question: "What is the largest ocean on Earth?",
-        options: ["Atlantic Ocean", "Indian Ocean", "Southern Ocean", "Pacific Ocean"],
-        answer: "Pacific Ocean",
+        question: "What is the correct syntax for a function in JavaScript?",
+        options: ["function myFunction()", "def myFunction()", "function: myFunction()", "func myFunction()"],
+        answer: "function myFunction()",
     },
     {
-        question: "Which famous artist painted the Mona Lisa?",
-        options: ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
-        answer: "Leonardo da Vinci",
+        question: "Which of the following is a programming paradigm?",
+        options: ["Object-Oriented Programming", "Markup Programming", "Script Programming", "None of the above"],
+        answer: "Object-Oriented Programming",
     },
 ];
+
 
 
 let currentQuestionIndex = 0;
