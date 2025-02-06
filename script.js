@@ -24,7 +24,33 @@ const quizData = [
         options: ["LeBron James", "Kobe Bryant", "Michael Jordan", "Shaquille O'Neal"],
         answer: "Michael Jordan",
     },
+    {
+        question: "What is the capital of Australia?",
+        options: ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+        answer: "Canberra",
+    },
+    {
+        question: "Which planet is known as the Red Planet?",
+        options: ["Earth", "Mars", "Venus", "Jupiter"],
+        answer: "Mars",
+    },
+    {
+        question: "Who developed the theory of relativity?",
+        options: ["Isaac Newton", "Nikola Tesla", "Albert Einstein", "Galileo Galilei"],
+        answer: "Albert Einstein",
+    },
+    {
+        question: "What is the largest ocean on Earth?",
+        options: ["Atlantic Ocean", "Indian Ocean", "Southern Ocean", "Pacific Ocean"],
+        answer: "Pacific Ocean",
+    },
+    {
+        question: "Which famous artist painted the Mona Lisa?",
+        options: ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+        answer: "Leonardo da Vinci",
+    },
 ];
+
 
 let currentQuestionIndex = 0;
 let score = 0;
